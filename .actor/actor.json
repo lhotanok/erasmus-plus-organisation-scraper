@@ -1,0 +1,48 @@
+{
+    "actorSpecification": 1,
+    "name": "Erasmus+ Organisation Scraper",
+    "title": "Erasmus+ Organisation Scraper",
+    "version": "1.0.0",
+    "storages": {
+        "dataset": {
+            "actorSpecification": 1,
+            "views": {
+                "overview": {
+                    "title": "Overview",
+                    "transformation": {
+                        "fields": [
+                            "name",
+                            "country",
+                            "city",
+                            "organisationId",
+                            "pic",
+                            "institutionCode",
+                            "vat",
+                            "website"
+                        ]
+                    },
+                    "display": {
+                        "component": "table",
+                        "properties": {
+                            "name": {
+                                "format": "text"
+                            },
+                            "website": {
+                                "format": "link"
+                            },
+                            "pic": {
+                                "format": "text"
+                            },
+                            "institutionCode": {
+                                "format": "text"
+                            },
+                            "vat": {
+                                "format": "text"
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
