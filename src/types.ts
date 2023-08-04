@@ -5,6 +5,7 @@ export type InputSchema = {
     legalName?: string;
     businessName?: string;
     countryCode?: string;
+    city?: string;
     websiteName?: string;
     pic?: string;
     organisationId?: string;
@@ -19,6 +20,7 @@ export type AdvancedSearchPayload = {
     legalName: string;
     businessName: string;
     countryCode: string;
+    city: string;
     websiteName: string;
     pic: string;
     organisationId: string;

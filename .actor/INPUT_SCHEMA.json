@@ -528,6 +528,12 @@
                 "Zimbabwe"
             ]
         },
+        "city": {
+            "title": "City",
+            "description": "",
+            "type": "string",
+            "editor": "textfield"
+        },
         "websiteName": {
             "title": "Website",
             "description": "",
