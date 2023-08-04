@@ -2,7 +2,7 @@
     "actorSpecification": 1,
     "name": "Erasmus+ Organisation Scraper",
     "title": "Erasmus+ Organisation Scraper",
-    "version": "1.0.0",
+    "version": "0.0",
     "storages": {
         "dataset": {
             "actorSpecification": 1,
