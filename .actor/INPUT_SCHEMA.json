@@ -1,5 +1,5 @@
 {
-    "title": "CheerioCrawler Template",
+    "title": "Erasmus+ Organisation Scraper Input",
     "type": "object",
     "schemaVersion": 1,
     "properties": {
@@ -15,7 +15,6 @@
                 "http://www.dpoview.org"
             ],
             "default": [],
-            "minItems": 1,
             "uniqueItems": true
         },
         "legalName": {
@@ -585,8 +584,5 @@
             "default":false
         }
     },
-    "required": [
-        "proxyConfiguration",
-        "debugMode"
-    ]
+    "required": []
 }
