@@ -18,7 +18,7 @@
             "uniqueItems": true
         },
         "legalName": {
-            "sectionCaption":"Advanced search (country, legal & business name, website...)",
+            "sectionCaption":"Advanced search (country, city, legal & business name, website...)",
             "sectionDescription": "Advanced search is limited to 100 results",
             "title": "Legal name",
             "description": "",
