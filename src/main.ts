@@ -47,6 +47,7 @@ const crawler = new CheerioCrawler({
     proxyConfiguration,
     additionalMimeTypes: ['application/json'],
     requestHandler: router,
+    maxRequestRetries: 10,
 });
 
 await crawler.run([
