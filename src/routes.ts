@@ -12,7 +12,7 @@ router.addDefaultHandler(async ({ json, log, request }) => {
     const parsedPayload = payload[0] === '{' ? JSON.parse(payload) : payload;
 
     log.info(
-        `Searched organization${organizations.length > 1 ? 's' : ''}`,
+        `Searched ${organizations.length} organisation${organizations.length > 1 ? 's' : ''}`,
         { search: parsedPayload },
     );
 
