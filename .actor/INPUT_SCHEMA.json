@@ -8,12 +8,6 @@
             "type": "array",
             "description": "Search terms representing Erasmus+ organizations you need data for. You can use all terms supported by Erasmus+ organization search engine: legal name, business name, hyperlink, PIC or an OID.",
             "editor": "stringList",
-            "prefill": [
-                "941588119",
-                "E10224716",
-                "The Edge Foundation",
-                "http://www.dpoview.org"
-            ],
             "default": [],
             "uniqueItems": true
         },
@@ -36,6 +30,7 @@
             "description": "",
             "type": "string",
             "editor": "select",
+            "prefill": "BE",
             "enum": [
                 "AD",
                 "AE",
